@@ -8,9 +8,9 @@ const SearchBar = (props) => {
 
     const handleSearch = () => {
 
-        setName("")
-
         onSearch(name)
+
+        setName("")
     }
 
     return (
